@@ -1,0 +1,38 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+/.secrets/**
+!/.secrets/**/
+!/.secrets/**/.gitkeep
+
+# Runtime data and generated artifacts
+/data/**
+!/data/**/
+!/data/**/.gitkeep
+/artifacts/**
+!/artifacts/**/
+!/artifacts/**/.gitkeep
+/backups/**
+!/backups/**/
+!/backups/**/.gitkeep
+
+# Python / JavaScript / editor
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+node_modules/
+dist/
+build/
+coverage/
+.coverage
+.vscode/
+.idea/
+
+# Local pipeline state
+*.log
+*.tmp
