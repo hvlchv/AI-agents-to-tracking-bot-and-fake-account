@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+sqlalchemy>=2,<3
+alembic
+psycopg[binary]>=3,<4
+pyarrow
+pwdlib[argon2]
+PyJWT
+python-multipart
+pytest
+httpx
+ruff

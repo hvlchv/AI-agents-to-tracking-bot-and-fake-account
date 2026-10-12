@@ -1,0 +1,14 @@
+.git
+.env
+.env.*
+.secrets
+**/.secrets
+.venv
+data
+artifacts
+backups
+reports
+**/node_modules
+**/dist
+**/__pycache__
+*.pyc

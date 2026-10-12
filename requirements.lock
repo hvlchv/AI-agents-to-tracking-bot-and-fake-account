@@ -1,0 +1,1 @@
+﻿# PLACEHOLDER ONLY: generate pinned dependencies with pip-compile --output-file requirements.lock requirements.in before installing or building.
